@@ -1,0 +1,153 @@
+body {
+margin:0 auto; /*up right down left*/
+padding:50px;
+font:88% Trebuchet MS, Arial, Helvetica, sans-serif;
+background-color:lightsteelblue;
+color:#003033; /*字体颜色*/
+}
+
+h1.rightshow
+{
+	font:italic bold 20px/40px arial,sans-serif;
+
+}
+
+
+
+
+a {
+text-decoration:none;
+color:rgb(80,200,197);
+}
+
+a:hover {
+text-decoration:underline;
+color:rgb(173,207,234);
+}
+
+a img {
+border:0;
+}
+p {
+margin:0 12px 16px 0;
+text-indent: 1em;
+text-align: justify;
+word-spacing: 0.3em;
+white-space: pre-wrap; /*changeline;pre*/
+}
+
+#message{
+background-image:url(blue3.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin: 50% 90%;
+}
+
+#content {
+background-color:#FFDAB9;
+color:#333333;
+margin:0 auto; /*outside */
+padding:30px 5px;  /*up/down left/right   inside*/
+width:750px;
+border: 6px grey;
+border-style: solid dotted;
+}
+
+#header {
+color:#0000ff;
+background:#ffffff url(blue5.jpg) repeat-x bottom left;
+height:100px;
+margin:0 0 10px 0; /*上右下左*/
+padding:0px;
+}
+
+#page h1{
+text-decoration: overline;
+}
+
+#header h1 {
+font-size:2em;
+float:left;
+font-weight:normal;
+letter-spacing:2px;
+margin:5px;
+color: rgb(56,56,166);
+}
+
+#header a{
+color: #ffffff;
+}
+#header a:hover{
+color: rgb(223,235,244);
+
+}
+#page h2{
+font-size:1.35em;
+font-weight:normal;
+}
+
+#header h1 a,#header h1 a:hover {
+padding:0;
+color:rgb(13,13,148);
+font-style: bold;
+}
+#header em{
+font-size:0.6em;
+font-style:normal;
+letter-spacing:2px;
+}
+
+#left {
+clear:left;
+float:left;
+width:150px;
+margin:0 0 10px 0;
+padding:0;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+#left ul {
+list-style:none;
+width:140px;
+margin:0 0 20px 0;
+padding:0;
+}
+
+#left li a {
+font-weight:bold;
+height:20px;
+text-decoration:none;
+color:#222222;
+display:block;
+border-top:2px solid rgb(173,207,234);
+padding:3px;
+}
+
+#left li a:hover {
+background:rgb(180,180,219);
+color:#222222;
+border-top:2px solid #555555;
+}
+
+
+#page {
+margin:10px 0 10px 160px;
+padding:0;
+line-height:1.5em;
+text-align:left;
+}
+
+
+#foot{
+clear:both;
+margin:0 auto;
+padding:8px 0;
+border-top:1px solid rgb(173,207,234);
+width:750px;
+text-align:center;
+color:#555555;
+background-color:#ffffff;
+font-size:0.9em;
+}
